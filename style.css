@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+/*Menu*/
+header{
+    background-color: #6E4687;
+}
+
+.logo {
+    height: 100px;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+.dropdown-menu {
+    background-color: #B79DC6;
+}
+
+/*Slide*/
+.slide img {
+    height: 500px;
+}
+
+/*Les derniers produits*/
+h3 {
+    color: #6E4687;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px;
+}
+
+.produit {
+    padding: 0 50px;
+}
+
+.form-check {
+    color: #B79DC6;
+}
+
+/*Avis*/
+.avis1, .avis2 {
+    color: black;
+    text-align: center;
+}
+
+.avis2 {
+    font-weight: bold;
+    color: #6E4687;
+}
+
+.jumbotron {
+    background-color: #b79dc621;
+    border-radius: 0.5em;
+    padding: 50px;
+}
+
+h5 {
+    color: #6E4687;
+}
+
+.avis {
+    color: #B79DC6;
+    font-style: italic;
+}
+
+/*Propos*/
+.rounded {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.propos {
+    text-align: justify;
+    width: 400px;
+}
+
+
+/*Bas de page*/
+.container3 {
+    height: auto;
+    padding-top: 40px;
+}
+
+footer {
+    display: table-row;
+    background-color: #6E4687;
+}
+
+ul, p{
+    color: #B79DC6;
+}
+
+.bas1, .bas2 {
+    font-size: smaller;
+}
+
+.bas1 {
+    padding-top: 15px;
+}
+
+.bas2 {
+    color: white;
+}
+

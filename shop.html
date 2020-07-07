@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/83f4286022.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>CMZ Boutique - Boutique</title>
+  </head>
+  <body>
+
+    <!--Menu-->
+    <header>
+        <div class="text-center">
+          <a href="index.html">
+            <img class="logo" src="Logo.png" alt="">
+          </a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6E4687">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active mx-2">
+                  <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Boutique
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="shop.html">Livre</a>
+                      <a class="dropdown-item" href="shop.html">Mug</a>
+                      <a class="dropdown-item" href="#vet">Vêtements</a>
+                      <a class="dropdown-item" href="#photographies">Photographies</a>
+                    </div>
+                  </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="avis.html">Livre d'or</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="propos.html">À propos</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a class="navbar-brand" href="#">
+                <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#panier">
+                  <i class="fas fa-shopping-basket"></i>
+                </button>
+              </a>
+                <div class="modal fade bd-example-modal-lg" id="panier" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Mon panier</h5>
+                      </div>
+                      <div class="modal-body text-center">
+                        <p>Oh mince, ton panier est vide...</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn alert-secondary" data-dismiss="modal">Continuer tes achats ?</button>
+                        <button type="button" class="btn alert-primary">Prêt à commander ?</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    
+
+    <!--Les produits-->
+    <div class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <section>
+          <div class="d-flex flex-row justify-content-center">
+            <h3 class="livre">Livre</h3>
+          </div>
+          <article class="produit">
+              <div class="card" style="width: 18rem; height: 31rem;">
+                  <img src="livre.png" class="card-img-top" alt="livre">
+                  <div class="card-body">
+                      <h5 class="card-title">Un peu de rêverie - 20 €</h5>
+                      <p class="card-text"> <br> Ce premier recueil de poèmes contient 30 poèmes et ses 30 photos. <br> Poèmes écrits et photos prises par Chloé Zombie.</p>
+                      <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#livre">
+                        Voir les détails
+                      </button>
+                      <div class="modal fade bd-example-modal-lg" id="livre" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Un peu de rêverie - 20 €</h5>
+                            </div>
+                            <div class="modal-body text-center">
+                              <img src="livre.png" alt="" style="width: 620px; height: 440px;">
+                              <p>Le rêve est une chose qui nous permet d'avancer et de réaliser nos projets. Mais le rêve est aussi une imagination de notre subconscient que nous pouvons pas forcément contrôler.</p>
+                              <p>Contient 30 poèmes et 30 photos.</p>
+                              <p style="font-style: italic; color: #6E4687;">Poèmes écrits et photos prises par Chloé Zombie</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                              <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </article>
+        </section>
+
+        <section>
+          <div class="d-flex flex-row justify-content-center">
+            <h3 class="mug">Mug</h3>
+          </div>
+          <article class="produit">
+              <div class="card" style="width: 18rem; height: 31rem;">
+                  <img src="mug.png" class="card-img-top" alt="mug">
+                  <div class="card-body">
+                      <h5 class="card-title">Mug Rama - 15 €</h5>
+                      <p class="card-text">Collection Prénom <br> Ce mug est un mug spécial seulement pour les Rama et personne d'autre ! <br> Bien sûr, d'autres prénoms seront à venir par la suite.</p>
+                      <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#mug">
+                        Voir les détails
+                      </button>
+                      <div class="modal fade bd-example-modal-lg" id="mug" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Mug Rama - 15 €</h5>
+                            </div>
+                            <div class="modal-body text-center">
+                              <img src="mug.png" alt="" style="width: 620px; height: 440px;">
+                              <p style="color: #6E4687;">Collection Prénom</p>
+                              <p>Ce mug est un mug spécial seulement pour les Rama et personne d'autre !</p>
+                              <p>Bien sûr, d'autres prénoms seront à venir par la suite.</p>
+                              <p style="font-style: italic; color: #6E4687;">Dessin réalisé par Chloé Zombie</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                              <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </article>
+        </section>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+      <section>
+          <h3 id="vet">Vêtements</h3>
+
+          <div class="card-deck justify-content-center">
+              <article class="produit">
+                  <div class="card" style="width: 18rem; height: 31rem;">
+                      <img src="TS.jpg" class="card-img-top" alt="tee-shirt">
+                      <div class="card-body">
+                          <h5 class="card-title">Tee-shirt - 15 €</h5>
+                          <p class="card-text">Collection Papillon <br> Tee-shirt en coton - Blanc <br> Toute taille</p>
+                          <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#ts">
+                            Voir les détails
+                          </button>
+                          <div class="modal fade bd-example-modal-lg" id="ts" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Tee-shirt - 15 €</h5>
+                                </div>
+                                <div class="modal-body text-center">
+                                  <img src="TS.jpg" alt="" style="width: 525px; height: 525px;">
+                                  <p class="pt-3" style="color: #6E4687;">Collection Papillon</p>
+                                  <p>Tee-shirt en coton - blanc</p>
+                                  <p>Toute taille</p>
+                                  <p style="font-style: italic; color: #6E4687;">Dessin réalisé par Chloé Zombie</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                                  <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </article>
+              <article class="produit">
+                  <div class="card" style="width: 18rem; height: 31rem;">
+                      <img src="Casquette.jpg" class="card-img-top" alt="casquette">
+                      <div class="card-body">
+                          <h5 class="card-title">Casquette - 10 €</h5>
+                          <p class="card-text">Collection Papillon <br> Casquette en coton - Blanc <br> Taille unique</p>
+                          <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#casquette">
+                            Voir les détails
+                          </button>
+                          <div class="modal fade bd-example-modal-lg" id="casquette" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Casquette - 10 €</h5>
+                                </div>
+                                <div class="modal-body text-center">
+                                  <img src="Casquette.jpg" alt="" style="width: 525px; height: 525px;">
+                                  <p style="color: #6E4687;">Collection Papillon</p>
+                                  <p>Casquette en coton - blanc</p>
+                                  <p>Taille unique</p>
+                                  <p style="font-style: italic; color: #6E4687;">Dessin réalisé par Chloé Zombie</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                                  <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </article>
+              <article class="produit">
+                  <div class="card" style="width: 18rem; height: 31rem;">
+                      <img src="sac.jpg" class="card-img-top" alt="sac">
+                      <div class="card-body">
+                          <h5 class="card-title">Sac - 10 €</h5>
+                          <p class="card-text">Collection Papillon <br> Sac en coton - blanc <br> 38 cm x 47 cm x 12 cm</p>
+                          <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#sac">
+                            Voir les détails
+                          </button>
+                          <div class="modal fade bd-example-modal-lg" id="sac" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Sac - 10 €</h5>
+                                </div>
+                                <div class="modal-body text-center">
+                                  <img src="sac.jpg" alt="" style="width: 525px; height: 525px;">
+                                  <p style="color: #6E4687;">Collection Papillon</p>
+                                  <p>Sac en coton - blanc</p>
+                                  <p>38 cm x 47 cm x 12 cm</p>
+                                  <p style="font-style: italic; color: #6E4687;">Dessin réalisé par Chloé Zombie</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                                  <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </article>
+          </div>
+      </section>
+  </div>
+
+  <div class="container-fluid mb-5">
+    <section>
+        <h3 id="photographies">Photographies</h3>
+
+        <div class="card-deck justify-content-center">
+            <article class="produit">
+                <div class="card" style="width: 18rem; height: 31rem;">
+                    <img src="fleur.jpg" class="card-img-top" alt="fleur">
+                    <div class="card-body">
+                        <h5 class="card-title">Petite fleur - 5 €</h5>
+                        <p class="card-text">Collection Fleurs <br> Poster - Carte postale <br>Format carré</p>
+                        <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#fleur">
+                          Voir les détails
+                        </button>
+                        <div class="modal fade bd-example-modal-lg" id="fleur" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Petite fleur - 5 €</h5>
+                              </div>
+                              <div class="modal-body text-center">
+                                <img src="lesdeuxfleurs.jpg" alt="" style="width: 650px; height: 440px;">
+                                <p style="color: #6E4687;"><br> Collection Fleurs</p>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label pr-5" for="inlineCheckbox1">Poster : 21 x 21 cm (soit 210 x 210 mm)</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox1">Carte postale : 148 x 148 mm</label>
+                                </div>
+                                <p class="pt-3">Format carré</p>
+                                <p style="font-style: italic; color: #6E4687;">Photo prise par Chloé Zombie</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="produit">
+                <div class="card" style="width: 18rem; height: 31rem;">
+                    <img src="poissonsc.jpg" class="card-img-top" alt="poissons">
+                    <div class="card-body">
+                        <h5 class="card-title">Poissons - 5 €</h5>
+                        <p class="card-text">Collection Poissons <br> Poster - Carte postale <br> Format rectangle</p>
+                        <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#poissons">
+                          Voir les détails
+                        </button>
+                        <div class="modal fade bd-example-modal-lg" id="poissons" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Poissons - 5 €</h5>
+                              </div>
+                              <div class="modal-body text-center">
+                                <img src="lesdeuxpoissons.jpg" alt="" style="width: 650px; height: 440px;">
+                                <p style="color: #6E4687;"><br> Collection Poissons</p>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label pr-5" for="inlineCheckbox1">Poster : 29,7 x 21 cm</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox1">Carte postale : 10,5 x 14,8 cm</label>
+                                </div>
+                                <p class="pt-3">Format A4 / Paysage - Format A6 / Paysage</p>
+                                <p style="font-style: italic; color: #6E4687;">Photo prise par Chloé Zombie</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="produit">
+                <div class="card" style="width: 18rem; height: 31rem;">
+                    <img src="parisc.jpg" class="card-img-top" alt="paris">
+                    <div class="card-body">
+                        <h5 class="card-title">Un banc de roses - 5 €</h5>
+                        <p class="card-text">Collection Paris <br>Poster - Carte postale <br>Format rectangle</p>
+                        <button type="button" class="btn alert-primary" data-toggle="modal" data-target="#paris">
+                          Voir les détails
+                        </button>
+                        <div class="modal fade bd-example-modal-lg" id="paris" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Un banc de roses - 5 €</h5>
+                              </div>
+                              <div class="modal-body text-center">
+                                <img src="lesdeuxparis.jpg" alt="" style="width: 650px; height: 440px;">
+                                <p style="color: #6E4687;"><br> Collection Paris</p>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label pr-5" for="inlineCheckbox1">Poster : 29,7 x 21 cm</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox1">Carte postale : 10,5 x 14,8 cm</label>
+                                </div>
+                                <p class="pt-3">Format A4 / Paysage - Format A6 / Paysage</p>
+                                <p class="pt-3" style="font-style: italic; color: #6E4687;">Photo prise par Chloé Zombie</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn alert-secondary" data-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn alert-primary">Ajouter au panier</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+  </div>
+    
+    
+    
+
+    <!--Bas de page-->
+    <footer>
+      <div class="container3">
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/chloemllezombie" target="_blank" class="btn-floating btn-fb mx-1" style="color: #aad1fa;">
+              <i class="fab fa-facebook-square fa-3x"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Mlle_Zombie" target="_blank" class="btn-floating btn-tw mx-1" style="color: #aad1fa;">
+              <i class="fab fa-twitter-square fa-3x"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/mademoiselle.zombie/?hl=fr" target="_blank" class="btn-floating btn-gplus mx-1" style="color: #aad1fa;">
+              <i class="fab fa-instagram-square fa-3x"></i>
+            </a>
+          </li>
+        </ul>  
+      </div>    
+
+      <div class="footer-copyright text-center">
+        <div class="d-flex justify-content-center">
+          <p class="bas1">Conditions - Générales de Vente - Politique de confidentialité - Politique de retour</p>
+        </div>
+        <p class="bas2 pb-4">© CMZ Boutique 2020</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
