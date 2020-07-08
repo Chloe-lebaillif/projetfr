@@ -80,8 +80,13 @@ h5 {
 
 .propos {
     text-align: justify;
-    width: 400px;
 }
+
+@media (max-width: 900px) {
+    .propos {
+        width: 400px;
+    }
+  }
 
 
 /*Bas de page*/
